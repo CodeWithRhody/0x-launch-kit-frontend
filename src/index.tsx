@@ -13,6 +13,7 @@ import { Erc721App } from './components/erc721/erc721_app';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { history, store } from './store';
+import './polyfills';
 
 ReactModal.setAppElement('#root');
 
